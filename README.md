@@ -172,6 +172,6 @@ I would like to thank to everyone who watch my code and like it.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./License.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
