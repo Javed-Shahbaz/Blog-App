@@ -1,18 +1,33 @@
 <main>
-    <div class="single-post-container">
-        <div class="post-header">
-            <div class="post-by-author">
-            <p class="post-author">Post #<%= @post.id%> by <%= @user.name%></p>
-            <span class="comments-likes-counter"><p class="counter">Comments: <%=@post.comments_counter%>, Likes: <%= @post.likes_counter%></p></span>
+    <div class="d-flex column p-1  bg wrap">
+        <div class="d-flex spc-btw m-100 f-center">
+            <div class="d-flex f-center">
+                <p>Post #<%= @post.id %> by</p>
+                <h3><%= @post.author.name %></h3>
             </div>
-        <div class="post-paragraph">
-            <%=@post.text%>
+            <div>
+                <p> Comments: <%= @post.comments_counter || 0 %> - Likes: <%= @post.likes_counter || 0 %></p>
             </div>
-            </div>
-            <div class="posts-comment">
-                    <% @post.comments.each do |comment| %>
-                        <p class="comments"><%= comment.author.name %> : <%= comment.text %></p>
-                    <% end %>
-                </div>
+        </div>
+        <div>
+            <p><%= @post.text %> </p>
+        </div>
+
+        <div class="p-1 wrap">
+            <h3>Comments:</h3>
+            <ul>
+            <% if @post.recent_comments.any? %>
+                <% @post.comments.each do |comment| %>
+                <li class="bg">
+                    <p><%=comment.author.name %> : <%=comment.text %></p>
+                </li>
+                <% end %>
+            <% else %>
+                <li>
+                <p>No comments yet.</p>
+                </li>
+            <% end %>
+            </ul>
+        </div>
     </div>
 </main>
