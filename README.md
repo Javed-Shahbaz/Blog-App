@@ -129,7 +129,17 @@ To deploy the project locally, run the following command:
 - GitHub: [@Javed-Shahbaz](https://github.com/Javed-Shahbaz)
 - Twitter: [@javedshahbaz007](https://twitter.com/javedshahbaz007)
 - LinkedIn: [@javedshahbaz](https://www.linkedin.com/in/javedshahbaz/)
+👤 **Sameed Mohsin**
 
+- GitHub: [@sameedmohsin28](https://github.com/sameedmohsin28/)
+- Twitter: [@sameedmohsin22](https://twitter.com/SameedMohsin22)
+- LinkedIn: [Sameed Mohsin](https://www.linkedin.com/in/sameed-mohsin-538792180/)
+
+👤 **Abiola Arobieke**
+
+- GitHub: [@abiola-arobieke](https://github.com/abiola-arobieke)
+- Twitter: [@abiola_arobieke](https://twitter.com/abiola_arobieke)
+- Linkedin: [@abiola-arobieke](https://linkedin.com/in/abiola-arobieke)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
