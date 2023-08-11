@@ -67,7 +67,7 @@ RSpec.feature 'Post index page', type: :feature do
     expect(page).not_to have_content('This the first comment for first post')
   end
 
-  scenario 'should show number of comments for a post' do
+  scenario 'should show the number of comments for a post' do
     expect(page).to have_content('Comments: 6')
     expect(page).to have_content('Comments: 0', count: 3)
   end
